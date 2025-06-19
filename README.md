@@ -1,5 +1,4 @@
 # Text Classification with LSTM (Keras) - Improved Version
----
 
 ## Requirements
 - Python 3.x
@@ -11,7 +10,6 @@
 - tqdm (for progress bars)
 - Matplotlib and Seaborn (for data visualization)
 
----
 ## Libraries Used
 - **TensorFlow**: For building and training the LSTM model for text classification.
 - **scikit-learn**: For data splitting, preprocessing, and evaluation metrics.
@@ -21,7 +19,6 @@
 - **tqdm**: For displaying progress bars during long-running processes.
 - **Matplotlib/Seaborn**: For visualizing results like confusion matrices and training curves.
 
----
 ## Changes and Improvements
 - **Data Preprocessing:** Modularized the data cleaning process by creating a `cleansing()` function to handle missing values and unnecessary columns more efficiently.
 - **Model Architecture:** Improved the LSTM model by adjusting layer configurations and adding dropout layers to reduce overfitting.
