@@ -49,6 +49,7 @@ In contrast, the improved version of the project introduced several key changes:
   * `dropout_rate=0.3`
   * `learning_rate=0.001`
   * `dense_units=128`
+
 | Model Version                 | Accuracy | Class 0 F1 | Class 1 F1 | Class 2 F1 | Macro F1 |
 | ----------------------------- | -------- | ---------- | ---------- | ---------- | -------- |
 | **Old Code**                  | 0.34     | 0.00       | 0.50       | 0.00       | 0.17     |
